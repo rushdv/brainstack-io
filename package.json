@@ -13,6 +13,7 @@
     "@tailwindcss/cli": "^4.2.1",
     "@tailwindcss/postcss": "^4.2.1",
     "@tailwindcss/vite": "^4.2.2",
+    "lucide-react": "^0.577.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
@@ -31,9 +32,8 @@
     "vite": "^8.0.0"
   },
   "overrides": {
-  "@tailwindcss/vite": {
-    "vite": "^8.0.0"
+    "@tailwindcss/vite": {
+      "vite": "^8.0.0"
+    }
   }
 }
-}
-
