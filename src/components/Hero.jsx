@@ -25,7 +25,7 @@ const Hero = () => {
 
             <div className="relative max-w-lg mx-auto">
                 <div className="relative z-10">
-                    <img src={heroImg} alt="Hero Image" />
+                    <img src={heroImg} alt="Hero Image" className="mx-auto" />
                 </div>
             </div>
         </section>
