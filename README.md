@@ -1,16 +1,28 @@
-# React + Vite
+# BrainStack.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern app store platform to discover, explore, and install productive mobile applications.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+BrainStack.io is a responsive web application that showcases a curated collection of productivity apps. Users can browse all apps, search by name, view detailed app information with ratings charts, install apps (saved to localStorage), and manage their installed apps from a dedicated installation page.
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** - UI library
+- **React Router DOM v7** - Client-side routing
+- **Tailwind CSS v3** - Utility-first styling
+- **Recharts** - Rating bar chart visualization
+- **React Hot Toast** - Toast notifications
+- **Lucide React** - Icon library
+- **Vite** - Build tool
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design for all screen sizes
+- Live search with loading animation
+- App install / uninstall with localStorage persistence
+- Sort installed apps by download count (High-Low / Low-High)
+- Recharts bar chart for app ratings
+- Active route indication in navbar
+- Custom 404 and App Not Found pages
+- Toast notifications for install/uninstall actions
