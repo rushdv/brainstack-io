@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Apps from "./pages/Apps";
 import AppDetails from "./pages/AppDetails";
 import Installation from "./pages/Installation";
-import NotFound from "./pages/Notfound";
+import Notfound from "./pages/Notfound";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             <Route path="/apps" element={<Apps />} />
             <Route path="/apps/:id" element={<AppDetails />} />
             <Route path="/installation" element={<Installation />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<Notfound />} />
           </Routes>
         </main>
         <Footer />
