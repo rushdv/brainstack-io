@@ -114,7 +114,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **GitHub**: [rushdv](https://github.com/rushdv)
-- **Live Demo**: [BrainStack.io](https://brainstack-1plaquzys-rushdvs-projects.vercel.app)
+- **Live Demo**: [BrainStack.io](https://brainstack-io.vercel.app/)
 
 ---
 
